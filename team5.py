@@ -6,6 +6,10 @@
 #     move: A function that returns 'c' or 'b'
 ####
 
+team_name = 'Team Trees' # Only 10 chars displayed.
+strategy_name = 'Nice Copier'
+strategy_description = 'Starts with colludes.Copies what the person did in their last move. After 3 betrays tries collude one more time'
+     
 def move(my_history, their_history, my_score, their_score):
     ''' Arguments accepted: my_history, their_history are strings.
     my_score, their_score are ints.
